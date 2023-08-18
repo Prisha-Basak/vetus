@@ -173,8 +173,22 @@
         </div>
     </footer>
 
-        <script type="text/javascript" src="/index/index.js">
-
+        <script>
+            var arrows = document.querySelectorAll('.down-arrow');
+           var firstSection = document.getElementById('home');
+           function checkScrollPosition() {
+               if (window.scrollY >= firstSection.offsetTop) {
+                   arrows.forEach(function(arrow) {
+                       arrow.style.display = 'none';
+                   });
+               } else {
+                   arrows.forEach(function(arrow) {
+                       arrow.style.display = 'block';
+                   });
+               }
+           }
+           window.addEventListener('load', checkScrollPosition);
+           window.addEventListener('scroll', checkScrollPosition);
         </script>
     </body>
 </html>
