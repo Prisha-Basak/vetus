@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="../index/index.css">
+    <title>About Upcycle</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar background h-nav-resp">
+            <ul class="nav-list v-class-resp">
+                <div class= "logo"><img src="/images/logo.png" alt="logo"></div>
+                <li><a href="#home" onclick="window.location.href='/index/index.html'">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faq" onclick="window.location.href='/faq/faq.html'">Faq</a></li>
+            </ul>
+            <div class="rightNav v-class-resp">
+                <form type="text" id="search" name="search"><a>Search</a><button type="submit" ></button><i class="fa fa-search" style="color: white;"></i></button></form>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="photo">
+        <img src="./about.png" alt="" class="nice">
+    </div>
+    <div class="head">
+        <p class="recycle">Recycle. Reinvent. Revamp.<p>
+            <p class="text2">Infuse your clothes with fresh purpose as you uncover innovative ways to breathe new life into your wardrobe, transforming pieces from the forgotten corners into statement ensembles that reflect your unique style and commitment to sustainability.</p>
+    </div>
+    <div class="mission">
+        <div class="bhenchod">
+            <p class="lund">Our <span class="bitch">Mission</span></p>
+            <p class="text3"> Upcycling reduces the demand for new clothing production, which is a core driver of the fast fashion industry. By repurposing and modifying existing garments, you actively participate in decreasing the market pressure for constant production and consumption of new clothes.</p>
+        </div>
+        <div>
+            <img src="./ye.png" alt="" class="okay">
+        </div>
+    </div>
+    <div class="papaji">
+        <img src="./hanji.png" alt="" class="oye">
+    </div>
+    <div class="founders">
+        <p class="lund2">Our <span class="bitch">Founders.</span></p>
+        <div class="flex">
+            <div class="basak">
+                <div>
+                    <p class="text5">Prisha Basak</p>
+                    <p class="text6">Founder</p>
+                    <p class="text4">Born and raised in New Delhi, Basak’s journey in fashion began at the young age of 8, having watched her grandmother sew on her old sewing machine. Inspired by the magic that thread and cloth together could create it became evident that this was what she wanted to do with her life.</p>
+                </div>
+                <div><img src="./basak.png" alt="" class="bro"></div>
+            </div>
+            <div class="basak">
+                <div>
+                    <p class="text5">Prisha Basak</p>
+                    <p class="text6">Founder</p>
+                    <p class="text4">Born and raised in New Delhi, Basak’s journey in fashion began at the young age of 8, having watched her grandmother sew on her old sewing machine. Inspired by the magic that thread and cloth together could create it became evident that this was what she wanted to do with her life.</p>
+                </div>
+                <div><img src="./basak.png" alt="" class="bro"></div>
+            </div>
+
+        </div>
+       
+    </div>
+
+        <footer>
+            <div class="firsthalf">
+                <img src="/images/logo.png"/>
+                <div class="icon">
+                    <p href= "https://www.youtube.com/watch?v=Eer3YnRx_d8" class="small-text">Instagram</p>
+                    <p href= "https://www.youtube.com/watch?v=Eer3YnRx_d8" class="small-text">Twitter</p>
+                    <p href= "https://www.youtube.com/watch?v=Eer3YnRx_d8" class="small-text">Youtube</p>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="links">
+                    <h4><strong>Quick Links</strong></h4>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Programs</p>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Jobs</p>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Contact</p>
+                </div>
+                <div class="news">
+                    <h4><strong>News</strong></h4>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Articles</p>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Media</p>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Blog</p>
+                </div>
+                <div class="copyright">
+                    <h4><strong>Legal</strong></h4>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Terms</p>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Privacy Policy</p>
+                    <p class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Cookies License</p>
+                </div>
+            </div>
+        </footer>
+    
+            <script>
+               var arrows = document.querySelectorAll('.down-arrow');
+               var firstSection = document.getElementById('home');
+               function checkScrollPosition() {
+                   if (window.scrollY >= firstSection.offsetTop) {
+                       arrows.forEach(function(arrow) {
+                           arrow.style.display = 'none';
+                       });
+                   } else {
+                       arrows.forEach(function(arrow) {
+                           arrow.style.display = 'block';
+                       });
+                   }
+               }
+               window.addEventListener('load', checkScrollPosition);
+               window.addEventListener('scroll', checkScrollPosition);
+            </script>
+    
+</body>
+</html>

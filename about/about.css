@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap')
+;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+}
+
+.logo{
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-left: 20px;
+}
+.logo img{
+    border-radius: 1px;
+    margin: 2px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+    justify-content: left;
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+    height: max-content;
+    width: 0%;
+    margin: auto;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav-list li a{
+    font-size: 15px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    white-space: nowrap;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.nav-list li a:hover{
+    color: white;
+}
+
+.rightNav{
+    padding-right: 30px;
+    background-color: black;
+    text-align: right;
+}
+
+#search{
+    width: 170px;
+    background-color: black;
+    font-size: 17px; 
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.rightNav form[type=text]{
+    padding: 6px;
+    font-size: 17px;
+    color: white;
+    font-size: 7px;
+}
+
+.rightNav a{
+    padding-right: 70px;
+    font-size: 17px;
+    color: white;
+}
+
+.rightNav button {
+    margin-right: 20px;
+    background: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.rightNav button:hover{
+    color: white;
+    opacity: 1;
+}
+
+.navbar.background{
+    background: black;
+    height: 50px;
+}
+
+.mission{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.bitch{
+    color: #3CAA75;
+}
+.text3{
+    line-height: normal;
+    max-width: 65%;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.lund{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.okay{
+    width: 450px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.nice{
+    
+    text-align: center;
+    width: 400px;
+}
+.text2{
+    text-align: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 18px;
+
+}
+.recycle{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+.basak{
+    background-color: #052323;
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.papaji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.oye{
+    max-width: 80%;
+    margin: auto;
+    object-fit: cover;
+}
+.bro{
+    width: 200px;
+}
+.lund2{
+    font-size: xx-large;
+    font-weight: bolder;
+    max-width: 80%;
+    margin: auto;   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.text5{
+    line-height: normal;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.text6{
+    line-height: normal;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-size: small;
+    color: #3CAA75;
+    font-weight: bold;
+}
+.text4{
+    line-height: normal;
+    width: 90%;
+    margin-top: 15px;
+    font-size: small;
+    padding-left: 20px;
+
+}
+
+footer{
+    height: 160px;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+footer .col{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-right: 90px;
+    align-items: flex-start;
+}
+
+footer h4{
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p{
+    cursor: pointer;
+    color: white;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a:hover{
+    color: beige;
+}
+
+footer p:hover{
+    color: beige;
+}
+
+.copyright, .links, .news{
+    float:left;
+    width:150px;
+    height:150px;
+    margin-left:70px;
+    margin-top: 30px;
+}
