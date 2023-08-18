@@ -115,7 +115,7 @@ body{
 }
 
 .firstSection{
-    height: 100vh;
+    height: 520px;
     background: rgba(0, 0, 0, 0.7) url(/images/home.png);
     background-blend-mode: darken;
     background-size: cover;
@@ -313,8 +313,10 @@ h6{
     width: 100%;
 }
 
-
-
+.list{
+    height: 50%;
+    width: 100%;
+}
 
 
 h4{
@@ -355,10 +357,13 @@ h3{
     line-height: 30px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2px;
 }
 
 .divider2{
-    width: 250px;
+    width: 275px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #section2 {
@@ -372,6 +377,7 @@ h3{
     justify-content: space-between;
     padding-top: 45px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 #section2 .pro {
@@ -391,6 +397,7 @@ h3{
 }
 
 footer{
+    padding-top: 30px;
     height: 160px;
     position: relative;
     background-color: black;
@@ -436,33 +443,12 @@ footer p:hover{
     color: beige;
 }
 
-.credits{
-    position: absolute;
-    bottom: 0px;
-    right: 50px;
-}
-
 .copyright, .links, .news{
     float:left;
     width:150px;
     height:150px;
     margin-left:70px;
     margin-top: 30px;
-}
-
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-}
-
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 3px 3px;
 }
 
 .icon{
