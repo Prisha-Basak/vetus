@@ -14,6 +14,7 @@ body{
     background: black;
 }
 
+
 .logo{
     text-align: left;
     position: absolute;
@@ -183,6 +184,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 .oye{
     max-width: 80%;
